@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/output.css" />
+		<link rel="icon" href="./assets/logo.svg" />
+		<title>ideatech</title>
+	</head>
+	<body class="overflow-x-hidden">
+		<!-- start the header section -->
+		<header id="home" class="bg-white top-0 w-full z-[20000] fixed duration-300" scroll="0">
+			<div class="container basis-[10%] flex justify-evenly items-center relative md:justify-between">
+				<div class="logo relative">
+					<object class="md:hidden" data="./assets/logo.svg " type=""></object>
+					<object class="byte hidden md:block unshown absolute top-1/2 -translate-y-1/2 z-40" data="./assets/bytcraft.svg" type=""></object>
+					<object class="byte hidden md:block" data="./assets/bytcraft.svg" type=""></object>
+				</div>
+				<ul class="list flex basis-[75%] justify-around xl:gap-0 md:absolute md:top-0 md:flex-col md:bg-yellow-100 md:gap-10 md:py-20 md:left-1/2 md:-translate-x-1/2 md:w-screen md:justify-center md:items-center z-10">
+					<li class="text-black text-[27px] p-5 lg:p-2 lg:text-[24px] md:text-[27px]"><a href="#home">home</a></li>
+					<li class="text-black text-[27px] p-5 lg:p-2 lg:text-[24px] md:text-[27px]"><a href="#about">about us</a></li>
+					<li class="text-black text-[27px] p-5 lg:p-2 lg:text-[24px] md:text-[27px]"><a href="#speakers">speakers</a></li>
+					<li class="text-black text-[27px] p-5 lg:p-2 lg:text-[24px] md:text-[27px]"><a href="#agenda">agenda</a></li>
+					<li class="text-black text-[27px] p-5 lg:p-2 lg:text-[24px] md:text-[27px]"><a href="#sponsors">sponsors</a></li>
+					<li class="bg-black max-h-[40px] font-[600] px-[42px] py-3 rounded-md text-[18px] text-white justify-center items-center hidden md:flex"><a href="">registre Now</a></li>
+				</ul>
+				<a href="" class="form basis-[15%] relative text-black text-[27px] lg:text-[24px] flex justify-center items-center md:hidden">
+					<span class="block relative z-10">form</span>
+					<object class="absolute top-[60%] -translate-y-1/2" data="./assets/purple.svg" type=""></object>
+				</a>
+				<a class="btn hidden md:block z-40" href="">
+					<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path class="one" d="M7 12.6929C8.55534 12.7608 10.1211 12.692 11.682 12.6425C15.0158 12.5369 18.3441 12.4493 21.6702 12.5324C23.3288 12.5737 24.942 12.7925 26.5871 12.8942" stroke="black" stroke-width="2.3" stroke-linecap="round" />
+						<path class="two" d="M7 16.6929C8.55534 16.7608 10.1211 16.692 11.682 16.6425C15.0158 16.5369 18.3441 16.4493 21.6702 16.5324C23.3288 16.5737 24.942 16.7925 26.5871 16.8942" stroke="black" stroke-width="2.3" stroke-linecap="round" />
+						<path class="three" d="M7 20.6929C8.55534 20.7608 10.1211 20.692 11.682 20.6425C15.0158 20.5369 18.3441 20.4493 21.6702 20.5324C23.3288 20.5737 24.942 20.7925 26.5871 20.8942" stroke="black" stroke-width="2.3" stroke-linecap="round" />
+						<path
+							d="M33.6969 18.2105C35.7121 10.0375 27.3006 1.79318 19.6437 0.318117C15.4425 -0.517563 11.0821 0.307831 7.47246 2.62207C4.39193 4.63635 1.25813 8.21928 0.854199 12.0027C0.845274 12.0768 0.864273 12.1515 0.907463 12.2122C-1.52056 18.4511 1.12497 26.33 6.4471 30.2962C11.7692 34.2624 20.4027 35.6082 26.0178 31.4994C26.122 31.4374 26.1973 31.3363 26.2273 31.2185C26.2573 31.1006 26.2394 30.9757 26.1776 30.8711C26.1158 30.7665 26.0151 30.6908 25.8977 30.6607C25.7804 30.6306 25.6559 30.6486 25.5517 30.7106L24.9436 30.9958C24.886 30.899 24.794 30.8276 24.6861 30.7962C24.5782 30.7647 24.4624 30.7756 24.3621 30.8265C20.6291 32.609 15.4401 31.7178 11.7426 30.3808C11.6523 30.3582 11.557 30.3685 11.4737 30.4102C11.3904 30.4518 11.3246 30.5219 11.2882 30.6079C11.2518 30.6938 11.2472 30.79 11.2751 30.8791C11.3031 30.9682 11.3618 31.0444 11.4408 31.0939C13.4107 32.0553 15.5522 32.6113 17.7394 32.7294C18.6545 32.7762 19.5718 32.7494 20.4826 32.6491C19.0544 33.0253 17.5724 33.1519 16.1015 33.0235C13.0338 32.7019 10.0987 31.599 7.57456 29.8193C4.5251 27.7739 2.44329 25.2783 1.45787 21.7132C0.571155 18.6429 0.586571 15.3808 1.50226 12.3191C1.54539 12.2884 1.58167 12.2489 1.6088 12.2033L2.07487 11.2808C1.13925 13.7203 0.86656 16.3657 1.28476 18.9458C2.07931 23.7943 4.80474 27.0029 8.83073 29.6411C9.31012 29.9575 9.79395 29.142 9.27461 28.8746C5.72357 26.9806 2.89161 22.6713 2.29237 18.7319C1.63542 14.3824 3.2112 10.3004 5.78571 6.8378C6.00765 6.54368 5.54157 6.21836 5.28856 6.45455C4.87053 6.85313 4.47907 7.27889 4.11672 7.72908C4.70814 6.82342 5.3925 5.98251 6.15858 5.22013C5.97659 5.52762 6.26954 5.99109 6.63352 5.7549C7.57011 5.15329 8.47562 4.51157 9.44772 3.97235C10.1402 3.58464 10.877 3.26824 11.5872 2.91173C11.7192 2.94998 11.8592 2.94998 11.9912 2.91173C17.1491 1.57482 22.2803 2.16306 26.3019 5.94652C26.3324 5.97655 26.3692 5.9994 26.4095 6.01342C26.4499 6.02744 26.4929 6.03227 26.5354 6.02758C26.5778 6.02289 26.6188 6.00879 26.6551 5.9863C26.6915 5.9638 26.7225 5.93347 26.7457 5.8975C26.7326 5.94568 26.7309 5.99627 26.7406 6.04525C26.7504 6.09423 26.7714 6.14024 26.802 6.17962C26.8326 6.21901 26.872 6.25067 26.9169 6.27209C26.9619 6.29352 27.0112 6.30411 27.0609 6.30303C27.1431 6.29352 27.219 6.25397 27.2741 6.19193C27.3292 6.12989 27.3596 6.04969 27.3596 5.96658C27.3596 5.88347 27.3292 5.80326 27.2741 5.74122C27.219 5.67918 27.1431 5.63964 27.0609 5.63012C27.0096 5.62858 26.9587 5.64002 26.9129 5.66338C26.8672 5.68674 26.828 5.72128 26.799 5.76381C26.8031 5.72169 26.7981 5.67918 26.7843 5.63919C26.7705 5.5992 26.7483 5.56266 26.7191 5.53208C25.3286 4.08008 23.6703 2.91317 21.8364 2.09621C27.274 4.09267 31.7882 8.97686 32.4407 14.6186C32.0302 12.7823 31.2657 11.0443 30.1903 9.50271C30.1396 9.41466 30.0563 9.35041 29.9585 9.32408C29.8606 9.29775 29.7564 9.31152 29.6687 9.36234C29.581 9.41316 29.517 9.49688 29.4908 9.59508C29.4646 9.69328 29.4783 9.79791 29.5289 9.88596C30.9484 12.5504 31.7181 15.5148 31.7749 18.5358C31.877 21.7132 30.6475 24.4182 28.9696 27.0386C28.7965 27.3015 29.1915 27.6268 29.4135 27.4084C29.4663 27.4382 29.5273 27.45 29.5873 27.4419C29.6474 27.4339 29.7032 27.4065 29.7464 27.3639C32.1744 25.0911 33.9499 21.682 33.7102 18.2773C33.7058 18.2417 33.6969 18.2283 33.6969 18.2105Z"
+							fill="black"
+						/>
+					</svg>
+				</a>
+			</div>
+		</header>
+		<!-- end the header section -->
+
+		<!-- start the main section -->
+		<section class="main pt-[100px] relative">
+			<div class="container flex flex-col justify-center items-center gap-10">
+				<div class="second_logo flex flex-col justify-center items-center gap-[30px]">
+					<object data="/assets/biigerlogo.svg" type=""></object>
+					<span class="text-[45px] font-[400] leading-[22px]">Ideatech</span>
+				</div>
+				<div class="slogan text-center font-[600] text-[65px] lg:text-[55px] md:text-[26px] leading-[70px] flex flex-col gap-5 justify-center items-center">
+					<p class="flex items-center flex-wrap justify-center">where we <span class="ideate inline-block -z-10 mx-2 overflow-hidden relative">ideate</span></p>
+					<p class="flex items-center flex-wrap justify-center">and <span class="techincate inline-block -z-10 mx-2 overflow-hidden relative">technicate</span> together</p>
+				</div>
+				<button class="btn bg-black mt-[15px] font-[600] px-[60px] md:px-[30px] rounded-md text-[32px] md:text-[18px] text-white flex justify-center items-center">register Now</button>
+				<div class="timer flex gap-3 justify-between items-center">
+					<div class="days relative w-fit">
+						<object class="md:hidden" data="/assets/timer.svg" type=""></object>
+						<object class="hidden md:block" data="/assets/timersmaller.svg" type=""></object>
+						<span class="days_number absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[40px] md:text-[18px] text-center leading-[30px] md:leading-[15px]"></span>
+					</div>
+					<div class="hours relative w-fit">
+						<object class="md:hidden" data="/assets/timer.svg" type=""></object>
+						<object class="hidden md:block" data="/assets/timersmaller.svg" type=""></object>
+						<span class="hours_number absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[40px] md:text-[18px] text-center leading-[30px] md:leading-[15px]"></span>
+					</div>
+					<div class="minutes relative w-fit">
+						<object class="hidden md:block" data="/assets/timersmaller.svg" type=""></object>
+						<object class="md:hidden" data="/assets/timer.svg" type=""></object>
+						<span class="minutes_number absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[40px] md:text-[18px] text-center leading-[30px] md:leading-[15px]"></span>
+					</div>
+					<div class="seconds relative w-fit">
+						<object class="md:hidden" data="/assets/timer.svg" type=""></object>
+						<object class="hidden md:block" data="/assets/timersmaller.svg" type=""></object>
+						<span class="seconds_number absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[40px] md:text-[18px] text-center leading-[30px] md:leading-[15px]"></span>
+					</div>
+				</div>
+			</div>
+			<svg class="flech absolute top-[105px] xl:hidden" width="443" height="499" viewBox="0 0 443 499" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path class="path" pathLength="1" d="M-19.5363 0.859105C-9.66622 115.195 51.6608 355.329 218.008 401.177C250.523 409.174 309.928 412.248 287.427 360.565C280.285 346.997 264.34 336.508 254.224 363.146C245.514 386.082 253.361 399.123 261.93 411.562C270.5 424 298.66 449.101 353.175 452.615C407.691 456.129 434.556 454.339 441 452L408.31 410.5L439.325 452.267C427.189 467.143 404.405 485.973 408.31 498.5" stroke="#080808" stroke-width="1.3" />
+			</svg>
+			<svg class="flech hidden top-[215px] xl:absolute xl:block" width="113" height="344" viewBox="0 0 113 344" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path class="path" pathLength="1" d="M97.5028 343.68C97.1277 339.289 105.963 334.759 111.02 330.757L103.866 314.813L111.589 330.79C109.306 331.091 100.363 329.736 82.7347 324.642C65.1058 319.547 57.6835 309.277 55.7718 304.577C53.86 299.877 52.2289 295.032 56.7447 288.138C61.9891 280.131 66.4614 284.725 67.823 289.692C71.4671 308.273 52.2025 302.969 42.1147 297.994C-9.13781 270.927 -10.2845 178.5 -6.86181 149.5C-3.4391 120.5 14.0608 92.2001 14.0608 65.0001C13.7274 52.8334 8.26066 23 -10.9393 1.00005" stroke="#080808" />
+			</svg>
+
+			<svg class="absolute top-[0] right-0 xl:hidden" width="274" height="705" viewBox="0 0 274 705" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M514.347 -1.90963C528.124 6.69711 536.293 23.1091 539.093 45.7096C541.891 68.2997 539.299 96.9106 531.713 129.632C516.543 195.064 481.46 276.708 430.033 359.026C378.606 441.344 320.617 508.678 268.465 551.006C242.385 572.173 217.809 587.05 196.28 594.442C174.741 601.837 156.409 601.693 142.632 593.086C128.856 584.48 120.687 568.068 117.887 545.467C115.089 522.877 117.681 494.266 125.267 461.545C140.436 396.113 175.52 314.469 226.947 232.151C278.374 149.833 336.362 82.4984 388.514 40.1706C414.594 19.0035 439.17 4.12649 460.699 -3.26536C482.238 -10.6606 500.571 -10.5164 514.347 -1.90963Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M491.405 23.0272C505.927 32.0994 514.723 49.0618 518.041 72.2307C521.358 95.3935 519.173 124.617 511.867 157.954C497.256 224.619 462.215 307.512 410.181 390.802C358.146 474.092 299.017 541.936 245.512 584.302C218.756 605.489 193.45 620.268 171.179 627.445C148.902 634.624 129.8 634.157 115.278 625.085C100.757 616.013 91.9603 599.05 88.6424 575.881C85.3254 552.718 87.5104 523.495 94.8168 490.158C109.428 423.493 144.468 340.6 196.503 257.31C248.537 174.02 307.667 106.176 361.172 63.8096C387.928 42.6235 413.233 27.844 435.504 20.6671C457.781 13.4883 476.883 13.9551 491.405 23.0272Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M513.018 -27.2837C527.54 -18.2115 536.336 -1.24916 539.654 21.9198C542.971 45.0826 540.786 74.3061 533.48 107.643C518.869 174.308 483.828 257.201 431.794 340.491C379.76 423.781 320.63 491.625 267.125 533.992C240.369 555.178 215.064 569.957 192.793 577.134C170.515 584.313 151.413 583.846 136.892 574.774C122.37 565.702 113.574 548.739 110.256 525.57C106.939 502.408 109.124 473.184 116.43 439.847C131.041 373.182 166.082 290.289 218.116 206.999C270.15 123.709 329.28 55.865 382.785 13.4987C409.541 -7.68738 434.846 -22.4669 457.118 -29.6438C479.395 -36.8226 498.497 -36.3558 513.018 -27.2837Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M544.351 -22.4355C558.873 -13.3634 567.669 3.59898 570.987 26.7679C574.304 49.9307 572.119 79.1542 564.813 112.491C550.202 179.156 515.161 262.049 463.127 345.339C411.093 428.629 351.963 496.473 298.458 538.84C271.702 560.026 246.397 574.805 224.125 581.982C201.848 589.161 182.746 588.694 168.225 579.622C153.703 570.55 144.906 553.588 141.589 530.419C138.272 507.256 140.457 478.032 147.763 444.695C162.374 378.03 197.415 295.137 249.449 211.847C301.483 128.557 360.613 60.7132 414.118 18.3468C440.874 -2.83924 466.179 -17.6188 488.45 -24.7957C510.728 -31.9744 529.83 -31.5077 544.351 -22.4355Z" stroke="#FFC700" stroke-width="2" />
+			</svg>
+			<svg class="hidden top-0 right-0 absolute xl:block" width="106" height="396" viewBox="0 0 106 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M232.638 28.2829C239.854 31.8863 244.734 39.6451 247.233 50.897C249.729 62.1387 249.806 76.7085 247.549 93.6366C243.037 127.483 229.224 170.528 207.154 214.725C185.083 258.921 158.972 295.825 134.626 319.767C122.45 331.742 110.757 340.434 100.27 345.192C89.7744 349.955 80.64 350.715 73.4241 347.112C66.2082 343.509 61.3279 335.75 58.8293 324.498C56.333 313.256 56.2556 298.686 58.5126 281.758C63.0251 247.912 76.8378 204.867 98.9082 160.67C120.979 116.474 147.09 79.5698 171.435 55.6276C183.612 43.6529 195.305 34.9611 205.792 30.2026C216.287 25.4397 225.422 24.6795 232.638 28.2829Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M224.212 39.0389C231.836 42.8458 237.058 50.8616 239.845 62.3738C242.63 73.8801 242.943 88.7397 240.857 105.965C236.687 140.407 222.957 184.082 200.626 228.799C178.296 273.516 151.632 310.732 126.604 334.758C114.088 346.775 102.021 355.452 91.1495 360.139C80.2724 364.828 70.7271 365.469 63.1038 361.662C55.4805 357.855 50.2583 349.84 47.4715 338.327C44.6862 326.821 44.3734 311.962 46.459 294.736C50.6291 260.294 64.3591 216.62 86.6896 171.902C109.02 127.185 135.684 89.9692 160.712 65.9429C173.228 53.9265 185.295 45.2487 196.167 40.5623C207.044 35.8734 216.589 35.2321 224.212 39.0389Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M230.734 15.4812C238.358 19.2881 243.58 27.3038 246.367 38.8161C249.152 50.3223 249.465 65.1819 247.379 82.4074C243.209 116.849 229.479 160.524 207.148 205.241C184.818 249.959 158.154 287.174 133.126 311.201C120.61 323.217 108.543 331.895 97.6715 336.581C86.7943 341.27 77.2491 341.911 69.6257 338.105C62.0024 334.298 56.7802 326.282 53.9935 314.77C51.2081 303.263 50.8954 288.404 52.981 271.178C57.1511 236.737 70.8811 193.062 93.2116 148.345C115.542 103.627 142.206 66.4115 167.234 42.3851C179.75 30.3688 191.817 21.691 202.688 17.0046C213.566 12.3157 223.111 11.6743 230.734 15.4812Z" stroke="#FFC700" stroke-width="2" />
+				<path d="M246.857 16.4215C254.48 20.2283 259.702 28.2441 262.489 39.7563C265.274 51.2626 265.587 66.1222 263.502 83.3476C259.331 117.789 245.601 161.464 223.271 206.181C200.94 250.899 174.276 288.114 149.249 312.141C136.732 324.157 124.666 332.835 113.794 337.521C102.917 342.21 93.3716 342.852 85.7483 339.045C78.125 335.238 72.9028 327.222 70.116 315.71C67.3307 304.204 67.018 289.344 69.1036 272.119C73.2737 237.677 87.0036 194.002 109.334 149.285C131.665 104.567 158.329 67.3517 183.356 43.3254C195.873 31.309 207.94 22.6313 218.811 17.9448C229.688 13.2559 239.233 12.6146 246.857 16.4215Z" stroke="#FFC700" stroke-width="2" />
+			</svg>
+		</section>
+		<!-- end the main section -->
+		<!-- start the ideatech section -->
+		<section class="ideatech pt-[50px]">
+			<div class="container flex flex-col gap-[85px] justify-center items-center">
+				<div class="ideatech_title text-[75px] md:text-[22px] font-[500] relative">IDEATCH 2022</div>
+				<div class="content flex justify-between lg:justify-center items-center px-10 lg:flex-col lg:px-0 lg:gap-5">
+					<div class="basis-1/2 lg:basis-full">
+						<p class="text text-[36px] md:text-[22px]">IdeaTech is an ideathon on its second-year edition in the higher national school of computer and digital sciences and technologies (ESTIN Amizour), organized by the scientific club ByteCraft.</p>
+					</div>
+					<div class="image relative lg:hidden">
+						<object data="/assets/ideatech.svg" type=""></object>
+						<object class="absolute top-[-5px] left-[-10px] -z-10" data="/assets/ideatec_back.svg" type=""></object>
+						<object class="absolute right-[-50px] bottom-[2%] z-[20]" data="/assets/ideatech_farchita.svg" type=""></object>
+						<object class="absolute right-[-45px] bottom-[2%] z-[10]" data="/assets/ideatech_farchita_back.svg" type=""></object>
+					</div>
+					<div class="image relative hidden lg:block">
+						<object data="/assets/ideatech_smaller.svg" type=""></object>
+						<object class="absolute top-0 -z-10 left-[-10px]" data="/assets/ideatec_back_smaller.svg" type=""></object>
+						<object class="absolute right-[-35px] top-[5%] z-[20]" data="/assets/ideatech_farchita_smaller.svg" type=""></object>
+						<object class="absolute right-[-30px] top-[5%] z-[10]" data="/assets/ideatech_farchita_back_smalller.svg" type=""></object>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end the ideatech section  -->
+		<!-- start welcome section  -->
+		<section class="pt-20">
+			<div class="container relative">
+				<div class="content flex justify-center items-center gap-20 lg:flex-col-reverse">
+					<div class="image_section relative lg:hidden">
+						<object class="z-20 lg:max-w-full" data="/assets/welcome_image.svg" type=""></object>
+						<object class="absolute -top-5 -left-5 -z-10 lg:max-w-full" data="/assets/welcome_back_image.svg" type=""></object>
+						<object class="absolute top-0 left-[20px] lg:max-w-full" data="/assets/welcome_sahna.svg " type=""></object>
+					</div>
+					<div class="image_section relative hidden lg:block">
+						<object class="z-20 lg:max-w-full" data="/assets/welcome_image_small.svg" type=""></object>
+						<object class="absolute -top-[10px] -left-[10px] -z-10" data="/assets/welcome_back_image_small.svg" type=""></object>
+						<object class="absolute top-0 left-[20px]" data="/assets/welcome_sahna_small.svg " type=""></object>
+					</div>
+					<div class="text_section relative basis-1/2">
+						<p class="text-[36px] font-[350] md:text-[22px]">We welcome all participants from all around the country to this competition, to come up with and develop ideas solutionary to a given theme of problematics, where they realize a prototype without the coding part, in teams of 15 and only in 48 hours, provided with copious (abundance)resources, mentors, qualified speakers, accommodation to empower and guide you through this journey.</p>
+						<object class="absolute right-5 lg:hidden" data="/assets/T asset.svg" type=""></object>
+					</div>
+				</div>
+				<object class="absolute right-0 bottom-[-150px] hidden lg:block" data="/assets/T asset 1_small.svg" type=""></object>
+			</div>
+		</section>
+		<!-- end welcome section  -->
+		<!-- start about us section -->
+		<section class="pt-[200px]">
+			<div class="container flex flex-col justify-center items-center relative">
+				<div class="about_title font-[700] text-[45px] md:text-[30px] text-blue-800 relative">About Us</div>
+				<div class="content pt-56 lg:pt-5 flex-1 flex justify-between items-start lg:flex-col-reverse lg:items-center lg:justify-center">
+					<div class="text relative basis-[60%]">
+						<p class="font-[350] text-[36px] md:text-[22px]">ByteCraft is scientific club that is hosted by (ESTIN Amizour) and that was officially opened to the world on October 25th 2022, its aim is to make events, conferences and workshops unrelated and especially related to tech, to increase their capacities and give them opportunities to exploit them, ByteCraft has been and still one of the most effective clubs in the school and in Bejaia as a whole that contributed very actively to the students’ community inside ESTIN and out.</p>
+					</div>
+					<div class="image relative">
+						<object class="max-w-full" data="/assets/about_image.svg" type=""></object>
+					</div>
+				</div>
+				<object class="absolute top-[-100px] left-[-50px] lg:hidden" data="/assets/IMG wireframe.svg" type=""></object>
+				<object class="absolute hidden lg:block top-[20px] left-[-20px]" data="/assets/IMG wireframe 1_small.svg" type=""></object>
+			</div>
+		</section>
+		<!-- end about us section -->
+		<!-- start the speakers section  -->
+		<section class="speakers pt-[100px]">
+			<div class="container relative flex justify-center items-center flex-col">
+				<div class="about_title font-[700] text-[45px] md:text-[30px] text-blue-800 relative">Speakers</div>
+				<div class="speakers_section"></div>
+				<div class="circles_section pt-[200px] flex gap-5">
+					<svg class="circl z-[40] md:hidden" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="1" class="filled sellected" d="M3 12.4999C6 -3.0001 27 4.99993 28 12.9999C28.3333 16.9999 26.5 25.2999 16.5 26.4999C6.5 27.6999 3.33333 17.6666 3 12.4999Z" fill="#FFCF27" />
+						<path d="M28.3314 13.6047C28.3314 20.8548 22.612 26.7093 15.5846 26.7093C8.55729 26.7093 2.83789 20.8548 2.83789 13.6047C2.83789 6.3545 8.55729 0.5 15.5846 0.5C22.612 0.5 28.3314 6.3545 28.3314 13.6047Z" stroke="black" />
+						<path d="M29.5001 15.1744C29.5001 22.2869 23.3576 28.1046 15.7144 28.1046C8.07125 28.1046 1.92871 22.2869 1.92871 15.1744C1.92871 8.06184 8.07125 2.24414 15.7144 2.24414C23.3576 2.24414 29.5001 8.06184 29.5001 15.1744Z" stroke="black" />
+						<path d="M28.591 16.5699C28.591 23.6824 22.4484 29.5001 14.8052 29.5001C7.16207 29.5001 1.01953 23.6824 1.01953 16.5699C1.01953 9.45735 7.16207 3.63965 14.8052 3.63965C22.4484 3.63965 28.591 9.45735 28.591 16.5699Z" stroke="black" />
+						<path d="M28.0714 13.7791C28.0714 20.8916 21.9289 26.7093 14.2857 26.7093C6.64254 26.7093 0.5 20.8916 0.5 13.7791C0.5 6.66658 6.64254 0.848877 14.2857 0.848877C21.9289 0.848877 28.0714 6.66658 28.0714 13.7791Z" stroke="black" />
+					</svg>
+					<svg class="circl z-[40] md:hidden" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="2" class="filled" d="M3 12.4999C6 -3.0001 27 4.99993 28 12.9999C28.3333 16.9999 26.5 25.2999 16.5 26.4999C6.5 27.6999 3.33333 17.6666 3 12.4999Z" fill="transparent" />
+						<path d="M28.3314 13.6047C28.3314 20.8548 22.612 26.7093 15.5846 26.7093C8.55729 26.7093 2.83789 20.8548 2.83789 13.6047C2.83789 6.3545 8.55729 0.5 15.5846 0.5C22.612 0.5 28.3314 6.3545 28.3314 13.6047Z" stroke="black" />
+						<path d="M29.5001 15.1744C29.5001 22.2869 23.3576 28.1046 15.7144 28.1046C8.07125 28.1046 1.92871 22.2869 1.92871 15.1744C1.92871 8.06184 8.07125 2.24414 15.7144 2.24414C23.3576 2.24414 29.5001 8.06184 29.5001 15.1744Z" stroke="black" />
+						<path d="M28.591 16.5699C28.591 23.6824 22.4484 29.5001 14.8052 29.5001C7.16207 29.5001 1.01953 23.6824 1.01953 16.5699C1.01953 9.45735 7.16207 3.63965 14.8052 3.63965C22.4484 3.63965 28.591 9.45735 28.591 16.5699Z" stroke="black" />
+						<path d="M28.0714 13.7791C28.0714 20.8916 21.9289 26.7093 14.2857 26.7093C6.64254 26.7093 0.5 20.8916 0.5 13.7791C0.5 6.66658 6.64254 0.848877 14.2857 0.848877C21.9289 0.848877 28.0714 6.66658 28.0714 13.7791Z" stroke="black" />
+					</svg>
+					<svg class="circl z-[40] md:hidden" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="3" class="filled" d="M3 12.4999C6 -3.0001 27 4.99993 28 12.9999C28.3333 16.9999 26.5 25.2999 16.5 26.4999C6.5 27.6999 3.33333 17.6666 3 12.4999Z" fill="transparent" />
+						<path d="M28.3314 13.6047C28.3314 20.8548 22.612 26.7093 15.5846 26.7093C8.55729 26.7093 2.83789 20.8548 2.83789 13.6047C2.83789 6.3545 8.55729 0.5 15.5846 0.5C22.612 0.5 28.3314 6.3545 28.3314 13.6047Z" stroke="black" />
+						<path d="M29.5001 15.1744C29.5001 22.2869 23.3576 28.1046 15.7144 28.1046C8.07125 28.1046 1.92871 22.2869 1.92871 15.1744C1.92871 8.06184 8.07125 2.24414 15.7144 2.24414C23.3576 2.24414 29.5001 8.06184 29.5001 15.1744Z" stroke="black" />
+						<path d="M28.591 16.5699C28.591 23.6824 22.4484 29.5001 14.8052 29.5001C7.16207 29.5001 1.01953 23.6824 1.01953 16.5699C1.01953 9.45735 7.16207 3.63965 14.8052 3.63965C22.4484 3.63965 28.591 9.45735 28.591 16.5699Z" stroke="black" />
+						<path d="M28.0714 13.7791C28.0714 20.8916 21.9289 26.7093 14.2857 26.7093C6.64254 26.7093 0.5 20.8916 0.5 13.7791C0.5 6.66658 6.64254 0.848877 14.2857 0.848877C21.9289 0.848877 28.0714 6.66658 28.0714 13.7791Z" stroke="black" />
+					</svg>
+					<svg class="circl z-[40] md:hidden" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="4" class="filled" d="M3 12.4999C6 -3.0001 27 4.99993 28 12.9999C28.3333 16.9999 26.5 25.2999 16.5 26.4999C6.5 27.6999 3.33333 17.6666 3 12.4999Z" fill="transparent" />
+						<path d="M28.3314 13.6047C28.3314 20.8548 22.612 26.7093 15.5846 26.7093C8.55729 26.7093 2.83789 20.8548 2.83789 13.6047C2.83789 6.3545 8.55729 0.5 15.5846 0.5C22.612 0.5 28.3314 6.3545 28.3314 13.6047Z" stroke="black" />
+						<path d="M29.5001 15.1744C29.5001 22.2869 23.3576 28.1046 15.7144 28.1046C8.07125 28.1046 1.92871 22.2869 1.92871 15.1744C1.92871 8.06184 8.07125 2.24414 15.7144 2.24414C23.3576 2.24414 29.5001 8.06184 29.5001 15.1744Z" stroke="black" />
+						<path d="M28.591 16.5699C28.591 23.6824 22.4484 29.5001 14.8052 29.5001C7.16207 29.5001 1.01953 23.6824 1.01953 16.5699C1.01953 9.45735 7.16207 3.63965 14.8052 3.63965C22.4484 3.63965 28.591 9.45735 28.591 16.5699Z" stroke="black" />
+						<path d="M28.0714 13.7791C28.0714 20.8916 21.9289 26.7093 14.2857 26.7093C6.64254 26.7093 0.5 20.8916 0.5 13.7791C0.5 6.66658 6.64254 0.848877 14.2857 0.848877C21.9289 0.848877 28.0714 6.66658 28.0714 13.7791Z" stroke="black" />
+					</svg>
+
+					<svg class="circl z-[40] hidden md:block" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="1" class="filled sellected" d="M2.2251 5.40163C3.52153 -1.29659 12.5965 2.16057 13.0287 5.61771C13.1727 7.34628 12.3805 10.9331 8.05903 11.4516C3.7376 11.9702 2.36915 7.63437 2.2251 5.40163Z" fill="#FFCF27" stroke="black" stroke-width="0.35" stroke-linecap="round" />
+						<path d="M13.2129 5.87915C13.2129 9.0339 10.724 11.5833 7.66345 11.5833C4.60292 11.5833 2.11396 9.0339 2.11396 5.87915C2.11396 2.72441 4.60292 0.175 7.66345 0.175C10.724 0.175 13.2129 2.72441 13.2129 5.87915Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.7178 6.55744C13.7178 9.65611 11.0426 12.1862 7.71937 12.1862C4.39617 12.1862 1.7209 9.65611 1.7209 6.55744C1.7209 3.45878 4.39617 0.928662 7.71937 0.928662C11.0426 0.928662 13.7178 3.45878 13.7178 6.55744Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.3253 7.16047C13.3253 10.2591 10.65 12.7892 7.32679 12.7892C4.00359 12.7892 1.32832 10.2591 1.32832 7.16047C1.32832 4.0618 4.00359 1.53169 7.32679 1.53169C10.65 1.53169 13.3253 4.0618 13.3253 7.16047Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.1006 5.95466C13.1006 9.05332 10.4254 11.5834 7.10218 11.5834C3.77898 11.5834 1.10371 9.05332 1.10371 5.95466C1.10371 2.85599 3.77898 0.325879 7.10218 0.325879C10.4254 0.325879 13.1006 2.85599 13.1006 5.95466Z" stroke="black" stroke-width="0.35" />
+					</svg>
+					<svg class="circl z-[40] hidden md:block" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="2" class="filled" d="M2.2251 5.40163C3.52153 -1.29659 12.5965 2.16057 13.0287 5.61771C13.1727 7.34628 12.3805 10.9331 8.05903 11.4516C3.7376 11.9702 2.36915 7.63437 2.2251 5.40163Z" fill="transparent" stroke="black" stroke-width="0.35" stroke-linecap="round" />
+						<path d="M13.2129 5.87915C13.2129 9.0339 10.724 11.5833 7.66345 11.5833C4.60292 11.5833 2.11396 9.0339 2.11396 5.87915C2.11396 2.72441 4.60292 0.175 7.66345 0.175C10.724 0.175 13.2129 2.72441 13.2129 5.87915Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.7178 6.55744C13.7178 9.65611 11.0426 12.1862 7.71937 12.1862C4.39617 12.1862 1.7209 9.65611 1.7209 6.55744C1.7209 3.45878 4.39617 0.928662 7.71937 0.928662C11.0426 0.928662 13.7178 3.45878 13.7178 6.55744Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.3253 7.16047C13.3253 10.2591 10.65 12.7892 7.32679 12.7892C4.00359 12.7892 1.32832 10.2591 1.32832 7.16047C1.32832 4.0618 4.00359 1.53169 7.32679 1.53169C10.65 1.53169 13.3253 4.0618 13.3253 7.16047Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.1006 5.95466C13.1006 9.05332 10.4254 11.5834 7.10218 11.5834C3.77898 11.5834 1.10371 9.05332 1.10371 5.95466C1.10371 2.85599 3.77898 0.325879 7.10218 0.325879C10.4254 0.325879 13.1006 2.85599 13.1006 5.95466Z" stroke="black" stroke-width="0.35" />
+					</svg>
+					<svg class="circl z-[40] hidden md:block" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="3" class="filled" d="M2.2251 5.40163C3.52153 -1.29659 12.5965 2.16057 13.0287 5.61771C13.1727 7.34628 12.3805 10.9331 8.05903 11.4516C3.7376 11.9702 2.36915 7.63437 2.2251 5.40163Z" fill="transparent" stroke="black" stroke-width="0.35" stroke-linecap="round" />
+						<path d="M13.2129 5.87915C13.2129 9.0339 10.724 11.5833 7.66345 11.5833C4.60292 11.5833 2.11396 9.0339 2.11396 5.87915C2.11396 2.72441 4.60292 0.175 7.66345 0.175C10.724 0.175 13.2129 2.72441 13.2129 5.87915Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.7178 6.55744C13.7178 9.65611 11.0426 12.1862 7.71937 12.1862C4.39617 12.1862 1.7209 9.65611 1.7209 6.55744C1.7209 3.45878 4.39617 0.928662 7.71937 0.928662C11.0426 0.928662 13.7178 3.45878 13.7178 6.55744Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.3253 7.16047C13.3253 10.2591 10.65 12.7892 7.32679 12.7892C4.00359 12.7892 1.32832 10.2591 1.32832 7.16047C1.32832 4.0618 4.00359 1.53169 7.32679 1.53169C10.65 1.53169 13.3253 4.0618 13.3253 7.16047Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.1006 5.95466C13.1006 9.05332 10.4254 11.5834 7.10218 11.5834C3.77898 11.5834 1.10371 9.05332 1.10371 5.95466C1.10371 2.85599 3.77898 0.325879 7.10218 0.325879C10.4254 0.325879 13.1006 2.85599 13.1006 5.95466Z" stroke="black" stroke-width="0.35" />
+					</svg>
+					<svg class="circl z-[40] hidden md:block" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path id="4" class="filled" d="M2.2251 5.40163C3.52153 -1.29659 12.5965 2.16057 13.0287 5.61771C13.1727 7.34628 12.3805 10.9331 8.05903 11.4516C3.7376 11.9702 2.36915 7.63437 2.2251 5.40163Z" fill="transparent" stroke="black" stroke-width="0.35" stroke-linecap="round" />
+						<path d="M13.2129 5.87915C13.2129 9.0339 10.724 11.5833 7.66345 11.5833C4.60292 11.5833 2.11396 9.0339 2.11396 5.87915C2.11396 2.72441 4.60292 0.175 7.66345 0.175C10.724 0.175 13.2129 2.72441 13.2129 5.87915Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.7178 6.55744C13.7178 9.65611 11.0426 12.1862 7.71937 12.1862C4.39617 12.1862 1.7209 9.65611 1.7209 6.55744C1.7209 3.45878 4.39617 0.928662 7.71937 0.928662C11.0426 0.928662 13.7178 3.45878 13.7178 6.55744Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.3253 7.16047C13.3253 10.2591 10.65 12.7892 7.32679 12.7892C4.00359 12.7892 1.32832 10.2591 1.32832 7.16047C1.32832 4.0618 4.00359 1.53169 7.32679 1.53169C10.65 1.53169 13.3253 4.0618 13.3253 7.16047Z" stroke="black" stroke-width="0.35" />
+						<path d="M13.1006 5.95466C13.1006 9.05332 10.4254 11.5834 7.10218 11.5834C3.77898 11.5834 1.10371 9.05332 1.10371 5.95466C1.10371 2.85599 3.77898 0.325879 7.10218 0.325879C10.4254 0.325879 13.1006 2.85599 13.1006 5.95466Z" stroke="black" stroke-width="0.35" />
+					</svg>
+				</div>
+				<div class="cards_section w-full pt-[50px] flex justify-between items-center">
+					<svg class="cursor-pointer left-flech lg:hidden" width="47" height="52" viewBox="0 0 47 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M41.5513 5C36.8803 10.6639 24.6306 22.447 12.9998 24.2688C19.4808 28.2393 34.2645 38.3175 41.5513 46.8659" stroke="black" stroke-width="9" stroke-linecap="round" />
+					</svg>
+					<svg class="cursor-pointer left-flech hidden lg:block" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22.3384 4C20.3198 6.4476 15.0262 11.5396 10.0001 12.3269C12.8008 14.0427 19.1895 18.3979 22.3384 22.092" stroke="black" stroke-width="7" stroke-linecap="round" />
+					</svg>
+
+					<div class="cards relative">
+						<div class="first_card card min-h-[450px] min-w-[450px] max-h-[450px] max-w-[450px] bg-[#F2CED0] border-black border-[2px] border-solid md:min-h-[196px] md:min-w-[196px] md:max-h-[196px] md:max-w-[196px]"></div>
+						<div class="second_card card p-4 flex justify-center items-center absolute top-[8px] right-[10px] bg-[#F2CED0] min-h-[450px] min-w-[450px] max-h-[450px] max-w-[450px] border-black border-[2px] border-solid md:min-h-[196px] md:min-w-[196px] md:max-h-[196px] md:max-w-[196px]"></div>
+						<div class="third_card flex justify-center items-center p-5 card absolute top-[15px] right-[20px] bg-[#F2CED0] min-h-[450px] min-w-[450px] max-h-[450px] max-w-[450px] border-black border-[2px] border-solid md:min-h-[196px] md:min-w-[196px] md:max-h-[196px] md:max-w-[196px]"></div>
+					</div>
+					<svg class="cursor-pointer right-flech lg:hidden" width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M4.55176 5C9.22314 10.6641 21.4739 22.4476 33.1056 24.2695C26.6241 28.2402 11.8391 38.3187 4.55176 46.8673" stroke="black" stroke-width="9" stroke-linecap="round" />
+					</svg>
+					<svg class="cursor-pointer right-flech hidden lg:block" width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M4.33838 4C6.35709 6.44768 11.6511 11.5399 16.6777 12.3272C13.8768 14.0431 7.48756 18.3984 4.33838 22.0927" stroke="black" stroke-width="7" stroke-linecap="round" />
+					</svg>
+				</div>
+				<object class="absolute top-[-100px] left-1 cursor-pointer lg:hidden" data="/assets/speakers_flech.svg" type=""></object>
+				<object class="absolute right-1 top-[100px] cursor-pointer lg:hidden" data="/assets/speakers_casque.svg" type=""></object>
+				<object class="hidden absolute top-[-80px] left-1 cursor-pointer lg:block" data="./assets/crown.svg" type=""></object>
+				<object class="hidden absolute right-1 top-[80px] cursor-pointer lg:block" data="./assets/casque_small.svg" type=""></object>
+				<object class="absolute lg:hidden bottom-[-250px] right-[50px]" data="./assets/compat.svg" type=""></object>
+				<object class="absolute lg:hidden bottom-[-250px] left-[50px]" data="./assets/flash_disk.svg" type=""></object>
+				<object class="absolute hidden lg:block bottom-[-170px] z-[-1000] left-1/2 -translate-x-1/2" data="./assets/speakers_small_flech.svg" type=""></object>
+			</div>
+		</section>
+		<!-- end the speakers section  -->
+
+		<!-- start agenda section -->
+		<section class="agenda pt-[550px] lg:pt-[350px]">
+			<div class="container relative flex flex-col items-center">
+				<div class="about_title special_title font-[700] text-[45px] md:text-[30px] text-blue-800 relative">Agenda</div>
+				<object data="./assets/agenda_pen.svg" class="absolute left-[50px] top-[-100px] md:hidden"></object>
+				<object data="./assets/agenda_crown.svg" class="absolute right-[50px] top-[-100px] md:hidden"></object>
+				<div class="content flex flex-col justify-center items-center gap-[100px] mt-[150px] w-full">
+					<div class="data px-28 lg:px-0 flex lg:flex-col justify-between w-full gap-20">
+						<div class="day_number basis-[25%] lg:basis-full flex flex-col lg:flex-row lg:items-center items-end justify-around gap-5">
+							<span id="0" class="relative cursor-pointer selected overflow-hidden block text-[45px] lg:text-[22px] font-[700]">Day 1</span>
+							<span id="1" class="relative cursor-pointer unselected overflow-hidden block text-[45px] lg:text-[22px] font-[700]">Day 2</span>
+						</div>
+						<div class="agenda_details relative p-5 flex flex-col justify-center items-center basis-[75%] lg:basis-full bg-[#F2CED0] border-black border-[2px] border-solid">
+							<div class="day flex justify-center gap-1 w-full">
+								<object class="md:hidden" data="/assets/day_flech.svg" type=""></object>
+								<object class="hidden md:block" data="/assets/day_flech_small.svg" type=""></object>
+								<span class="block font-[700] text-[32px] md:text-[20px]">Thursday, November 24th</span>
+							</div>
+							<div class="activities w-full flex flex-col">
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">05:00pm - 05:30pm:</span>
+									<span class="text-[30px] md:text-[20px]">check in</span>
+								</div>
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">06:00pm - 07:00pm:</span>
+									<span class="text-[30px] md:text-[20px]">Opening ceremony</span>
+								</div>
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">07:00pm - 07:30pm:</span>
+									<span class="text-[30px] md:text-[20px]">Ice breaking</span>
+								</div>
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">07:30pm - 08:00pm:</span>
+									<span class="text-[30px] md:text-[20px]">Ideathon Presentaton</span>
+								</div>
+
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">08:00pm - 09:00pm:</span>
+									<span class="text-[30px] md:text-[20px]">Ideathon Launch</span>
+								</div>
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">09:00pm - 10:00pm:</span>
+									<span class="text-[30px] md:text-[20px]">Dinner</span>
+								</div>
+								<div class="activity">
+									<span class="font-[700] text-[30px] md:text-[20px]">10:00pm - 12:00am: </span>
+									<span class="text-[30px] md:text-[20px]">Hackathon</span>
+								</div>
+								<object class="agenda_timer absolute top-[-50px] right-[-50px] lg:hidden" data="/assets/agenda_timer.svg" type=""></object>
+								<object class="agenda_timer absolute top-[-20px] right-[-20px] hidden lg:block" data="/assets/agenda_timer_small.svg" type=""></object>
+							</div>
+						</div>
+					</div>
+					<object class="lg:hidden" data="/assets/agenda_line.svg" type=""></object>
+					<object class="hidden lg:block absolute top-[40px] right-[-20px] z-[-50]" data="/assets/agenda_line_small.svg" type=""></object>
+				</div>
+			</div>
+		</section>
+		<!-- end agenda section -->
+
+		<!-- start sponsors section -->
+		<section class="sponsors pt-[150px]">
+			<div class="container relative flex flex-col items-center">
+				<div class="about_title font-[700] text-[45px] md:text-[30px] text-blue-800 relative">Sponsors</div>
+				<div class="sponsors_container pt-[200px] w-full gap-y-[100px]">
+					<div class="sponsor_element">
+						<object data="/assets/sponsor_element.svg " type=""></object>
+					</div>
+					<div class="sponsor_element">
+						<object data="/assets/sponsor_element.svg" type=""></object>
+					</div>
+					<div class="sponsor_element">
+						<object data="/assets/sponsor_element.svg" type=""></object>
+					</div>
+					<div class="sponsor_element">
+						<object data="/assets/sponsor_element.svg" type=""></object>
+					</div>
+				</div>
+				<object class="absolute md:hidden top-[150px] right-[50px]" data="./assets/tyara_sponsors.svg" type=""></object>
+				<object class="absolute md:hidden bottom-[-150px] right-[50px]" data="./assets/tkhrbicha_droite_sponsor.svg" type=""></object>
+				<object class="absolute md:hidden bottom-[-150px] right-[50px]" data="./assets/tkhrbicha_droite_sponsor.svg" type=""></object>
+				<object class="absolute md:hidden top-[150px] left-[50px]" data="./assets/tkhrbicha_lfoug_sponsor.svg" type=""></object>
+				<object class="absolute md:hidden top-[550px] left-[50px]" data="./assets/tkhrbicha_gauche_sponsor.svg" type=""></object>
+				<object class="absolute md:hidden bottom-[-150px] left-[-50px]" data="./assets/ghayma_sponsor.svg" type=""></object>
+			</div>
+		</section>
+		<!-- end sponsors section -->
+		<!-- start footer section -->
+		<footer class="mt-[250px] relative pt-[80px] md:pt-[120px] flex flex-col  justify-center items-center">
+			<div class="container flex justify-between items-center">
+				<div class="ideatech_logo">
+					<object class="md:hidden" data="./assets/footer_logo.svg " type=""></object>
+					<object class="hidden md:block"  data="./assets/footer_logo_small.svg " type=""></object>
+				</div>
+				<div class="social flex flex-col gap-5 justify-center items-center">
+					<div class="social_links flex gap-5">
+						<a href=""  class="md:hidden" target="_blank" rel="noopener noreferrer"><object data="./assets/facebook_footer.svg" type=""></object></a>
+						<a href=""  class="hidden md:block" target="_blank" rel="noopener noreferrer"><object data="./assets/facebook_footer_small.svg" type=""></object></a>
+						<a href="" class="md:hidden" target="_blank" rel="noopener noreferrer"><object data="./assets/linked_in_footer.svg" type=""></object></a>
+						<a href=""  class="hidden md:block" target="_blank" rel="noopener noreferrer"><object data="./assets/linked_in_footer_small.svg" t_smallype=""></object></a>
+						<a href="" class="md:hidden" target="_blank" rel="noopener noreferrer"><object data="./assets/insta_footer.svg" type=""></object></a>
+						<a href=""  class="hidden md:block" target="_blank" rel="noopener noreferrer"><object data="./assets/insta_footer_small.svg" t_smallype=""></object></a>
+					</div>
+					<div class="date">
+						<p class="text-[#776F6F] font-[400] leading-[22px] text-[18px] md:text-[14px] " >Copyright    &#169 <span class="year"></span> . All rights reserved </p>
+					</div>
+				</div>
+				<div class="bytcraft_logo">
+					<object  class="md:hidden" data="./assets/bytcraft_footer.svg" type=""></object>
+					<object  class="hidden md:block" data="./assets/bytcraft_footer_small.svg" type=""></object>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer section -->
+         
+		<!-- animation section -->
+	        
+		<!-- script file -->
+		<script src="./app.js"></script>
+	</body>
+</html>
+
+
+<style type="text/css">
+
+</style>
